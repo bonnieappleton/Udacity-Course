@@ -1,0 +1,57 @@
+<h2>Please input some text to ROT13</h2>
+<form>
+  <textarea value="%s" name="text" style="width:400px; height:200px;">
+  </textarea>
+  <br>
+  <input type="submit">
+</form>
+
+<h1>Sign Up!</h1>
+  <form>
+
+    <table>
+      <tr>
+        <td>
+          Username *
+        </td>
+        <td>
+          <input type="text" name="username" value="%(username)s">
+        </td>
+        <td>%(username_error)s</td>
+      </tr>
+
+      <tr>
+        <td>
+          Password *
+        </td>
+        <td>
+          <input type="password" name="password" value="%(password)s">
+        </td>
+        <td>%(password_error)s</td>
+      </tr>
+
+      <tr>
+        <td>
+          Verify Password *
+        </td>
+        <td>
+          <input type="password" name="verify-password" value="%(verifypassword)s">
+        </td>
+        <td>%(verify_password_error)s</td>
+      </tr>
+
+      <tr>
+        <td>
+          Email
+        </td>
+        <td>
+          <input type="text" name="email" value="%(email)s">
+        </td>
+        <td>%(email_error)s</td>
+      </td>
+
+    </table>
+
+    <input type="submit">
+
+  </form>
